@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <string-array android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/list" name="list">
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
+        <item>option4</item>
+        <item>option5</item>
+        
+    </string-array>
+    
+    
+    <string-array android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/listvalues" name="listvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+</resources>

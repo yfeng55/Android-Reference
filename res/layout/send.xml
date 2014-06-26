@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's For Lunch?" />
+
+    <RadioGroup
+        android:id="@+id/rg_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rb_pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pizza" />
+
+        <RadioButton
+            android:id="@+id/rb_burger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="burger" />
+
+        <RadioButton
+            android:id="@+id/rb_salad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="salad" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+	
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test" />
+
+</LinearLayout>

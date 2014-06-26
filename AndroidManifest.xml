@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.example.helloworld.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.helloworld.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.helloworld.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.helloworld.Textplay"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.helloworld.Email"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.helloworld.Camera"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.example.helloworld.Data"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.TD4W"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.Graphics"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.GraphicsSurface"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.SimpleBrowser"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.SoundDemo"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.HttpDemo"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.helloworld.Prefs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+    </application>
+</manifest>
